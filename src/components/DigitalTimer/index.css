@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.img-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.heading {
+  color: #0f172a;
+}
+.start-pause {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.increase-minute {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.decrease-minute {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.reset-time {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timer-box {
+  background-image: linear-gradient(to right, #7fffd4, #00d9f5);
+  border-radius: 10px;
+  text-align: center;
+  width: 80px;
+  padding: 15px 5px 0px 5px;
+  font-weight: bold;
+}
+
+.img-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: 400px;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-time-box {
+  background-color: #ffffff;
+  border-radius: 150px;
+  padding: 50px;
+  height: 30vh;
+  text-align: center;
+}
+
+.start-reset-btn {
+  display: flex;
+  flex-direction: row;
+}
+.inc-dec-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-btn {
+  width: 25px;
+  height: 20px;
+}
+.reset-btn {
+  width: 20px;
+  height: 20px;
+}
+.timer-settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 200px;
+}
+.play-text {
+  font-weight: bold;
+}
+
+.reset-text {
+  font-weight: bold;
+}
+.set-timer-text {
+  font-size: 14px;
+}
